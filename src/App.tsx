@@ -2,10 +2,7 @@ import { Link } from "react-router-dom";
 
 function App() {
   const handleClick = () => {
-    window.gtag("event", "child_click", {
-      event_category: "navigation",
-      event_label: "Child Page Link",
-    });
+    window.gtag("event", "child_click");
   };
   return (
     <>
