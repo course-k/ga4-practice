@@ -12,7 +12,6 @@ const routes: RouteObject[] = [
 
 const router = createBrowserRouter(routes);
 const MyRoutes = () => {
-  gtag;
   return <RouterProvider router={router} />;
 };
 
